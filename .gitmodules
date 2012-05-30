@@ -139,3 +139,6 @@
 [submodule "vendor/exporter"]
 	path = vendor/exporter
 	url = git://github.com/sonata-project/exporter.git
+[submodule "vendor/bundles/Brickstorm/SolidRBundle"]
+	path = vendor/bundles/Brickstorm/SolidRBundle
+	url = git@github.com:brickstorm/SolidRBundle.git

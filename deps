@@ -1,3 +1,7 @@
+[brickstorm-solidrbundle]
+    git=git@github.com:brickstorm/SolidRBundle.git
+    target=/bundles/Brickstorm/SolidRBundle/
+
 [symfony]
     git=git://github.com/symfony/symfony.git
     version=v2.0.12
