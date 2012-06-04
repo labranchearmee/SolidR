@@ -142,3 +142,18 @@
 [submodule "vendor/bundles/Brickstorm/SolidRBundle"]
 	path = vendor/bundles/Brickstorm/SolidRBundle
 	url = git@github.com:brickstorm/SolidRBundle.git
+[submodule "vendor/bundles/Brickstorm/FormBundle"]
+	path = vendor/bundles/Brickstorm/FormBundle
+	url = git@github.com:brickstorm/FormBundle.git
+[submodule "vendor/bundles/FOS/FacebookBundle"]
+	path = vendor/bundles/FOS/FacebookBundle
+	url = git://github.com/FriendsOfSymfony/FOSFacebookBundle.git
+[submodule "vendor/facebook"]
+	path = vendor/facebook
+	url = git://github.com/facebook/php-sdk.git
+[submodule "vendor/gedmo-doctrine-extensions"]
+	path = vendor/gedmo-doctrine-extensions
+	url = git://github.com/l3pp4rd/DoctrineExtensions.git
+[submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
+	path = vendor/bundles/Stof/DoctrineExtensionsBundle
+	url = git://github.com/stof/StofDoctrineExtensionsBundle.git
