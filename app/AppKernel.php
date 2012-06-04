@@ -69,7 +69,20 @@ class AppKernel extends Kernel
             new Sonata\Bundle\DemoBundle\SonataDemoBundle(),
 
             // Enable this if you want to audit backend action
-            new SimpleThings\EntityAudit\SimpleThingsEntityAuditBundle(),
+            //new SimpleThings\EntityAudit\SimpleThingsEntityAuditBundle(),
+
+            // -- added
+            new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
+            new FOS\FacebookBundle\FOSFacebookBundle(),
+            //new FOS\TwitterBundle\FOSTwitterBundle(),
+            //new FOS\RestBundle\FOSRestBundle(),
+            //new JMS\SerializerBundle\JMSSerializerBundle($this),
+            //new BCC\ExtraToolsBundle\BCCExtraToolsBundle(),
+
+            //Brickstorm
+            new Brickstorm\SolidRBundle\BrickstormSolidRBundle(),
+            new Brickstorm\FormBundle\BrickstormFormBundle(),
+            new Brickstorm\WorldBundle\BrickstormWorldBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

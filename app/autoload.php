@@ -57,6 +57,14 @@ $loader->registerNamespaces(array(
     'Faker'             => __DIR__.'/../vendor/faker/src',
     'SimpleThings'      => __DIR__.'/../vendor/bundles',
     'Google'            => __DIR__.'/../vendor/google-authenticator/lib'
+
+    // -- added
+    'Stof'              => __DIR__.'/../vendor/bundles',
+    'Gedmo'             => __DIR__.'/../vendor/gedmo-doctrine-extensions/lib',
+    //'BCC'               => __DIR__.'/../vendor/bundles',
+
+    //Brickstorm
+    'Brickstorm'        => __DIR__.'/../vendor/bundles',
 ));
 
 $loader->registerPrefixes(array(
