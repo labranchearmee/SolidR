@@ -16,6 +16,7 @@ imports:
     - { resource: sonata/sonata_notification.yml }
     
     # Brickstorm
+    - { resource: @BrickstormSolidRBundle/Resources/config/config.yml }
     - { resource: fos_socialnetworks.yml }
 
 framework:
