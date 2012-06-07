@@ -9,6 +9,15 @@
         <id name="id" column="id" type="integer">
             <generator strategy="AUTO" />
         </id>
+        <field name="phonenumber" column="phonenumber" type="integer" nullable="true" unique="true" />
+        <field name="facebookId" column="facebookId" type="integer" nullable="true" unique="true" />
+        <field name="twitterId" column="twitterId" type="integer" nullable="true" unique="true" />
+        <field name="twitter_username" column="twitter_username" type="string" nullable="true" unique="true" />
+
+        <one-to-many target-entity="Brickstorm\Sms4FoodBundle\Entity\Restaurant" field="restaurants" mapped-by="user" />
+        <one-to-many target-entity="Brickstorm\Sms4FoodBundle\Entity\Booking" field="bookings" mapped-by="user" />
+        <one-to-many target-entity="Brickstorm\Sms4FoodBundle\Entity\Order" field="orders" mapped-by="user" />
+        <one-to-many target-entity="Brickstorm\Sms4FoodBundle\Entity\Location" field="locations" mapped-by="user" />
 
     </entity>
 

@@ -37,4 +37,227 @@ class User extends BaseUser
     {
         return $this->id;
     }
+    /**
+     * @var integer $phonenumber
+     */
+    private $phonenumber;
+
+    /**
+     * @var integer $facebookId
+     */
+    private $facebookId;
+
+    /**
+     * @var integer $twitterId
+     */
+    private $twitterId;
+
+    /**
+     * @var string $twitter_username
+     */
+    private $twitter_username;
+
+    /**
+     * @var Brickstorm\Sms4FoodBundle\Entity\Restaurant
+     */
+    private $restaurants;
+
+    /**
+     * @var Brickstorm\Sms4FoodBundle\Entity\Booking
+     */
+    private $bookings;
+
+    /**
+     * @var Brickstorm\Sms4FoodBundle\Entity\Order
+     */
+    private $orders;
+
+    /**
+     * @var Brickstorm\Sms4FoodBundle\Entity\Location
+     */
+    private $locations;
+
+    /**
+     * @var Application\Sonata\UserBundle\Entity\Group
+     */
+    protected $groups;
+
+    public function __construct()
+    {
+      $this->restaurants = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->bookings = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->orders = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->locations = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->groups = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Set phonenumber
+     *
+     * @param integer $phonenumber
+     */
+    public function setPhonenumber($phonenumber)
+    {
+        $this->phonenumber = $phonenumber;
+    }
+
+    /**
+     * Get phonenumber
+     *
+     * @return integer 
+     */
+    public function getPhonenumber()
+    {
+        return $this->phonenumber;
+    }
+
+    /**
+     * Set facebookId
+     *
+     * @param integer $facebookId
+     */
+    public function setFacebookId($facebookId)
+    {
+        $this->facebookId = $facebookId;
+    }
+
+    /**
+     * Get facebookId
+     *
+     * @return integer 
+     */
+    public function getFacebookId()
+    {
+        return $this->facebookId;
+    }
+
+    /**
+     * Set twitterId
+     *
+     * @param integer $twitterId
+     */
+    public function setTwitterId($twitterId)
+    {
+        $this->twitterId = $twitterId;
+    }
+
+    /**
+     * Get twitterId
+     *
+     * @return integer 
+     */
+    public function getTwitterId()
+    {
+        return $this->twitterId;
+    }
+
+    /**
+     * Set twitter_username
+     *
+     * @param string $twitterUsername
+     */
+    public function setTwitterUsername($twitterUsername)
+    {
+        $this->twitter_username = $twitterUsername;
+    }
+
+    /**
+     * Get twitter_username
+     *
+     * @return string 
+     */
+    public function getTwitterUsername()
+    {
+        return $this->twitter_username;
+    }
+
+    /**
+     * Add restaurants
+     *
+     * @param Brickstorm\Sms4FoodBundle\Entity\Restaurant $restaurants
+     */
+    public function addRestaurant(\Brickstorm\Sms4FoodBundle\Entity\Restaurant $restaurants)
+    {
+        $this->restaurants[] = $restaurants;
+    }
+
+    /**
+     * Get restaurants
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getRestaurants()
+    {
+        return $this->restaurants;
+    }
+
+    /**
+     * Add bookings
+     *
+     * @param Brickstorm\Sms4FoodBundle\Entity\Booking $bookings
+     */
+    public function addBooking(\Brickstorm\Sms4FoodBundle\Entity\Booking $bookings)
+    {
+        $this->bookings[] = $bookings;
+    }
+
+    /**
+     * Get bookings
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getBookings()
+    {
+        return $this->bookings;
+    }
+
+    /**
+     * Add orders
+     *
+     * @param Brickstorm\Sms4FoodBundle\Entity\Order $orders
+     */
+    public function addOrder(\Brickstorm\Sms4FoodBundle\Entity\Order $orders)
+    {
+        $this->orders[] = $orders;
+    }
+
+    /**
+     * Get orders
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getOrders()
+    {
+        return $this->orders;
+    }
+
+    /**
+     * Add locations
+     *
+     * @param Brickstorm\Sms4FoodBundle\Entity\Location $locations
+     */
+    public function addLocation(\Brickstorm\Sms4FoodBundle\Entity\Location $locations)
+    {
+        $this->locations[] = $locations;
+    }
+
+    /**
+     * Get locations
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getLocations()
+    {
+        return $this->locations;
+    }
+
+    /**
+     * Get groups
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getGroups()
+    {
+        return $this->groups;
+    }
 }
