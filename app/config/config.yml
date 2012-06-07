@@ -17,6 +17,7 @@ imports:
     
     # Brickstorm
     - { resource: @BrickstormSolidRBundle/Resources/config/config.yml }
+    - { resource: @BrickstormWorldBundle/Resources/config/config.yml }
     - { resource: fos_socialnetworks.yml }
 
 framework:
