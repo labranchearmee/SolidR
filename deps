@@ -1,10 +1,10 @@
+[brickstorm-sms4foodbundle]
+    git=git@github.com:bergstorm/Sms4FoodBundle.git
+    target=/bundles/Brickstorm/Sms4FoodBundle/
+
 [brickstorm-solidrbundle]
     git=git@github.com:brickstorm/SolidRBundle.git
     target=/bundles/Brickstorm/SolidRBundle/
-
-[brickstorm-sms4foodrbundle]
-    git=git@github.com:bergstorm/Sms4FoodBundle.git
-    target=/bundles/Brickstorm/Sms4FoodRBundle/
 
 [brickstorm-form]
     git=git@github.com:brickstorm/FormBundle.git

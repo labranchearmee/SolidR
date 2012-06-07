@@ -157,3 +157,9 @@
 [submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
 	path = vendor/bundles/Stof/DoctrineExtensionsBundle
 	url = git://github.com/stof/StofDoctrineExtensionsBundle.git
+[submodule "vendor/bundles/Brickstorm/Sms4FoodRBundle"]
+	path = vendor/bundles/Brickstorm/Sms4FoodRBundle
+	url = git@github.com:bergstorm/Sms4FoodBundle.git
+[submodule "vendor/bundles/Brickstorm/Sms4FoodBundle"]
+	path = vendor/bundles/Brickstorm/Sms4FoodBundle
+	url = git@github.com:bergstorm/Sms4FoodBundle.git

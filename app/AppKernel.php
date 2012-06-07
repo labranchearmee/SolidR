@@ -81,6 +81,7 @@ class AppKernel extends Kernel
 
             //Brickstorm
             new Brickstorm\SolidRBundle\BrickstormSolidRBundle(),
+            new Brickstorm\Sms4FoodBundle\BrickstormSms4FoodBundle(),
             new Brickstorm\FormBundle\BrickstormFormBundle(),
             new Brickstorm\WorldBundle\BrickstormWorldBundle(),
         );
