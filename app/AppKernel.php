@@ -80,6 +80,7 @@ class AppKernel extends Kernel
             //new BCC\ExtraToolsBundle\BCCExtraToolsBundle(),
 
             //Brickstorm
+            new Brickstorm\AmndrcBundle\BrickstormAmndrcBundle(),
             new Brickstorm\SolidRBundle\BrickstormSolidRBundle(),
             new Brickstorm\Sms4FoodBundle\BrickstormSms4FoodBundle(),
             new Brickstorm\FormBundle\BrickstormFormBundle(),

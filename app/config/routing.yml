@@ -4,8 +4,8 @@
 #   prefix:   /_internal
 
 #brickstorm
-brickstorm_solidr:
-   resource: "@BrickstormSolidRBundle/Resources/config/routing/main.yml"
+brickstorm_amndrc:
+   resource: "@BrickstormAmndrcBundle/Resources/config/routing/main.yml"
 
 
 #homepage:
