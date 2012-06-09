@@ -2,16 +2,22 @@
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
-homepage:
-    pattern:  /
-    defaults: { _controller: SonataPageBundle:Page:catchAll }
 
-sonata_user_impersonating:
-    pattern:  /
-    defaults: { _controller: SonataPageBundle:Page:catchAll }
+#brickstorm
+brickstorm_solidr:
+   resource: "@BrickstormSolidRBundle/Resources/config/routing/main.yml"
 
-sonata_demo:
-    resource: "@SonataDemoBundle/Resources/config/routing/demo.xml"
+
+#homepage:
+#    pattern:  /
+#    defaults: { _controller: SonataPageBundle:Page:catchAll }
+
+#sonata_user_impersonating:
+#    pattern:  /
+#    defaults: { _controller: SonataPageBundle:Page:catchAll }
+
+#sonata_demo:
+#    resource: "@SonataDemoBundle/Resources/config/routing/demo.xml"
 
 
 fos_user_security:
@@ -33,13 +39,13 @@ fos_user_change_password:
     resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
     prefix: /change-password
 
-sonata_page_cache:
-    resource: '@SonataPageBundle/Resources/config/routing/cache.xml'
-    prefix: /
+#sonata_page_cache:
+#    resource: '@SonataPageBundle/Resources/config/routing/cache.xml'
+#    prefix: /
 
-sonata_page_exceptions:
-    resource: '@SonataPageBundle/Resources/config/routing/exceptions.xml'
-    prefix: /page
+#sonata_page_exceptions:
+#    resource: '@SonataPageBundle/Resources/config/routing/exceptions.xml'
+#    prefix: /page
 
 sonata_media_gallery:
     resource: '@SonataMediaBundle/Resources/config/routing/gallery.xml'
@@ -74,8 +80,8 @@ soanata_user:
     resource: '@SonataUserBundle/Resources/config/routing/admin_security.xml'
     prefix: /admin
 
-catchAll:
-    pattern:  /{path}
-    defaults: { _controller: SonataPageBundle:Page:catchAll }
-    requirements:
-        path: .*
+#catchAll:
+#    pattern:  /{path}
+#    defaults: { _controller: SonataPageBundle:Page:catchAll }
+#    requirements:
+#        path: .*
