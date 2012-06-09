@@ -74,6 +74,8 @@ class AppKernel extends Kernel
             // -- added
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new FOS\FacebookBundle\FOSFacebookBundle(),
+            new JMS\PaymentPaypal\JMSPaymentPaypalBundle();
+            new JMS\PaymentCore\JMSPaymentCoreBundle();
             //new FOS\TwitterBundle\FOSTwitterBundle(),
             //new FOS\RestBundle\FOSRestBundle(),
             //new JMS\SerializerBundle\JMSSerializerBundle($this),
