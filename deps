@@ -1,10 +1,10 @@
 [jms-payment-core]
     git=git@github.com:schmittjoh/JMSPaymentCoreBundle.git
-    target=/bundles/JMS/PaymentCoreBundle/
+    target=/bundles/JMS/Payment/CoreBundle/
 
 [jms-payment-paypal]
     git=git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
-    target=/bundles/JMS/PaymentPaypalBundle/
+    target=/bundles/JMS/Payment/PaypalBundle/
 
 [brickstorm-sms4foodbundle]
     git=git@github.com:bergstorm/Sms4FoodBundle.git

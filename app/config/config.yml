@@ -102,3 +102,11 @@ swiftmailer:
 jms_security_extra:
     secure_controllers:  true
     secure_all_services: false
+
+jms_payment_core:
+    secret: branchearmee
+
+jms_payment_paypal:
+    username: amndrc
+    password: brickstorm012
+    signature: solidr

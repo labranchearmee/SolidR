@@ -163,3 +163,21 @@
 [submodule "vendor/bundles/Brickstorm/Sms4FoodBundle"]
 	path = vendor/bundles/Brickstorm/Sms4FoodBundle
 	url = git@github.com:bergstorm/Sms4FoodBundle.git
+[submodule "vendor/bundles/JMS/PaymentCoreBundle"]
+	path = vendor/bundles/JMS/PaymentCoreBundle
+	url = git@github.com:schmittjoh/JMSPaymentCoreBundle.git
+[submodule "vendor/bundles/JMS/PaymentPaypalBundle"]
+	path = vendor/bundles/JMS/PaymentPaypalBundle
+	url = git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
+[submodule "vendor/bundles/JMS/Payment/PaymentCoreBundle"]
+	path = vendor/bundles/JMS/Payment/PaymentCoreBundle
+	url = git@github.com:schmittjoh/JMSPaymentCoreBundle.git
+[submodule "vendor/bundles/JMS/Payment/PaymentPaypalBundle"]
+	path = vendor/bundles/JMS/Payment/PaymentPaypalBundle
+	url = git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
+[submodule "vendor/bundles/JMS/Payment/CoreBundle"]
+	path = vendor/bundles/JMS/Payment/CoreBundle
+	url = git@github.com:schmittjoh/JMSPaymentCoreBundle.git
+[submodule "vendor/bundles/JMS/Payment/PaypalBundle"]
+	path = vendor/bundles/JMS/Payment/PaypalBundle
+	url = git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
