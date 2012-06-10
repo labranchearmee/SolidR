@@ -1,40 +1,42 @@
-[jms-payment-core]
-    git=git@github.com:schmittjoh/JMSPaymentCoreBundle.git
-    target=/bundles/JMS/Payment/CoreBundle/
+[wiakowe-jms-payment-core]
+    git=git@github.com:wiakowe/JMSPaymentCoreBundle.git
+    target=bundles/JMS/Payment/CoreBundle/
+    version=2.0
 
-[jms-payment-paypal]
-    git=git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
-    target=/bundles/JMS/Payment/PaypalBundle/
+[wiakowe-jms-payment-paypal]
+    git=git@github.com:wiakowe/JMSPaymentPaypalBundle.git
+    target=bundles/JMS/Payment/PaypalBundle/
+    version=2.0
 
 [brickstorm-sms4foodbundle]
     git=git@github.com:bergstorm/Sms4FoodBundle.git
-    target=/bundles/Brickstorm/Sms4FoodBundle/
+    target=bundles/Brickstorm/Sms4FoodBundle/
 
 [brickstorm-solidrbundle]
     git=git@github.com:brickstorm/SolidRBundle.git
-    target=/bundles/Brickstorm/SolidRBundle/
+    target=bundles/Brickstorm/SolidRBundle/
 
 [brickstorm-form]
     git=git@github.com:brickstorm/FormBundle.git
-    target=/bundles/Brickstorm/FormBundle/
+    target=bundles/Brickstorm/FormBundle/
 
 [FOSFacebookBundle]
     git=git://github.com/FriendsOfSymfony/FOSFacebookBundle.git
-    target=/bundles/FOS/FacebookBundle
+    target=bundles/FOS/FacebookBundle
     version=1.0.0
 
 [FacebookSDK]
     git=git://github.com/facebook/php-sdk.git
-    target=/facebook
+    target=facebook
 
 [gedmo-doctrine-extensions]
     git=git://github.com/l3pp4rd/DoctrineExtensions.git
-    target=/gedmo-doctrine-extensions
+    target=gedmo-doctrine-extensions
     version=v2.1.0
 
 [DoctrineExtensionsBundle]
     git=git://github.com/stof/StofDoctrineExtensionsBundle.git
-    target=/bundles/Stof/DoctrineExtensionsBundle
+    target=bundles/Stof/DoctrineExtensionsBundle
     version=1.0.0
 
 ## --

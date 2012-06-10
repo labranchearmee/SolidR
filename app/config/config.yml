@@ -20,6 +20,8 @@ imports:
     - { resource: @BrickstormSolidRBundle/Resources/config/config.yml }
     - { resource: @BrickstormWorldBundle/Resources/config/config.yml }
     - { resource: fos_socialnetworks.yml }
+    
+    - { resource: @JMSPaymentCoreBundle/Resources/config/payment.xml }
 
 framework:
     #esi:             ~
