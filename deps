@@ -1,12 +1,12 @@
-[wiakowe-jms-payment-core]
-    git=git@github.com:wiakowe/JMSPaymentCoreBundle.git
+[jms-payment-core]
+    git=git@github.com:Wiakowe/JMSPaymentCoreBundle.git
     target=bundles/JMS/Payment/CoreBundle/
-    version=2.0
+    version=origin/2.0
 
-[wiakowe-jms-payment-paypal]
-    git=git@github.com:wiakowe/JMSPaymentPaypalBundle.git
+[jms-payment-paypal]
+    git=git@github.com:Wiakowe/JMSPaymentPaypalBundle.git
     target=bundles/JMS/Payment/PaypalBundle/
-    version=2.0
+    version=origin/2.0
 
 [brickstorm-sms4foodbundle]
     git=git@github.com:bergstorm/Sms4FoodBundle.git

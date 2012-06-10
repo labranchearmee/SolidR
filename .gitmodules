@@ -177,7 +177,7 @@
 	url = git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
 [submodule "vendor/bundles/JMS/Payment/CoreBundle"]
 	path = vendor/bundles/JMS/Payment/CoreBundle
-	url = git@github.com:schmittjoh/JMSPaymentCoreBundle.git
+	url = git@github.com:Wiakowe/JMSPaymentCoreBundle.git
 [submodule "vendor/bundles/JMS/Payment/PaypalBundle"]
 	path = vendor/bundles/JMS/Payment/PaypalBundle
-	url = git@github.com:schmittjoh/JMSPaymentPaypalBundle.git
+	url = git@github.com:Wiakowe/JMSPaymentPaypalBundle.git
