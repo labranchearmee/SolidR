@@ -62,6 +62,8 @@ $loader->registerNamespaces(array(
     'Stof'              => __DIR__.'/../vendor/bundles',
     'Gedmo'             => __DIR__.'/../vendor/gedmo-doctrine-extensions/lib',
     //'BCC'               => __DIR__.'/../vendor/bundles',
+    'Geocoder' => __DIR__.'/../vendor/geocoder/src',
+    'Ivory'    => __DIR__.'/../vendor/bundles',
 
     //Brickstorm
     'Brickstorm'        => __DIR__.'/../vendor/bundles',

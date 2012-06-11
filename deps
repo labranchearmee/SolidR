@@ -1,3 +1,11 @@
+[geocoder]
+    git=http://github.com/willdurand/Geocoder.git
+    target=geocoder
+
+[IvoryGoogleMapBundle]
+    git=http://github.com/egeloen/IvoryGoogleMapBundle.git
+    target=/bundles/Ivory/GoogleMapBundle
+
 [jms-payment-core]
     git=git@github.com:Wiakowe/JMSPaymentCoreBundle.git
     target=bundles/JMS/Payment/CoreBundle/

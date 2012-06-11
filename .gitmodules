@@ -181,3 +181,9 @@
 [submodule "vendor/bundles/JMS/Payment/PaypalBundle"]
 	path = vendor/bundles/JMS/Payment/PaypalBundle
 	url = git@github.com:Wiakowe/JMSPaymentPaypalBundle.git
+[submodule "vendor/geocoder"]
+	path = vendor/geocoder
+	url = http://github.com/willdurand/Geocoder.git
+[submodule "vendor/bundles/Ivory/GoogleMapBundle"]
+	path = vendor/bundles/Ivory/GoogleMapBundle
+	url = http://github.com/egeloen/IvoryGoogleMapBundle.git

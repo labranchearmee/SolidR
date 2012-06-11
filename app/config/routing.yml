@@ -12,9 +12,9 @@ brickstorm_amndrc:
 #    pattern:  /
 #    defaults: { _controller: SonataPageBundle:Page:catchAll }
 
-#sonata_user_impersonating:
-#    pattern:  /
-#    defaults: { _controller: SonataPageBundle:Page:catchAll }
+sonata_user_impersonating:
+    pattern:  /
+    defaults: { _controller: SonataPageBundle:Page:catchAll }
 
 #sonata_demo:
 #    resource: "@SonataDemoBundle/Resources/config/routing/demo.xml"

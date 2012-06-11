@@ -20,6 +20,8 @@ imports:
     - { resource: @BrickstormSolidRBundle/Resources/config/config.yml }
     - { resource: @BrickstormWorldBundle/Resources/config/config.yml }
     - { resource: fos_socialnetworks.yml }
+
+    - { resource: @IvoryGoogleMapBundle/Resources/config/services.xml }
     
     - { resource: @JMSPaymentCoreBundle/Resources/config/payment.xml }
 
@@ -109,6 +111,6 @@ jms_payment_core:
     secret: branchearmee
 
 jms_payment_paypal:
-    username: amndrc
-    password: brickstorm012
-    signature: solidr
+    username: bbergstorm_api1.gmail.com
+    password: M7EWDKLCCYDJFXTZ
+    signature: AFcWxV21C7fd0v3bYYYRCpSSRl31AT0llJncTZ1Dnvff7mfC7UxMPhVW
