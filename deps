@@ -1,3 +1,7 @@
+[michelsalib-ExtraToolsBundle]
+    git=http://github.com/michelsalib/BCCExtraToolsBundle.git
+    target=/bundles/BCC/ExtraToolsBundle
+
 [geocoder]
     git=http://github.com/willdurand/Geocoder.git
     target=geocoder

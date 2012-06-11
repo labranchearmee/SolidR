@@ -187,3 +187,9 @@
 [submodule "vendor/bundles/Ivory/GoogleMapBundle"]
 	path = vendor/bundles/Ivory/GoogleMapBundle
 	url = http://github.com/egeloen/IvoryGoogleMapBundle.git
+[submodule "vendor/bundles/michelsalib/BCCExtraToolsBundle"]
+	path = vendor/bundles/michelsalib/BCCExtraToolsBundle
+	url = http://github.com/michelsalib/BCCExtraToolsBundle.git
+[submodule "vendor/bundles/BCC/ExtraToolsBundle"]
+	path = vendor/bundles/BCC/ExtraToolsBundle
+	url = http://github.com/michelsalib/BCCExtraToolsBundle.git

@@ -64,6 +64,7 @@ $loader->registerNamespaces(array(
     //'BCC'               => __DIR__.'/../vendor/bundles',
     'Geocoder' => __DIR__.'/../vendor/geocoder/src',
     'Ivory'    => __DIR__.'/../vendor/bundles',
+    'BCC' => __DIR__.'/../vendor/bundles',
 
     //Brickstorm
     'Brickstorm'        => __DIR__.'/../vendor/bundles',

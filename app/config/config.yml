@@ -114,3 +114,10 @@ jms_payment_paypal:
     username: bbergstorm_api1.gmail.com
     password: M7EWDKLCCYDJFXTZ
     signature: AFcWxV21C7fd0v3bYYYRCpSSRl31AT0llJncTZ1Dnvff7mfC7UxMPhVW
+
+
+services:
+    bcc.twig.extension:
+        class: BCC\ExtraToolsBundle\Twig\TwigExtension
+        tags:
+            -  { name: twig.extension }

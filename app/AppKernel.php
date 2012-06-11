@@ -77,6 +77,7 @@ class AppKernel extends Kernel
             new JMS\Payment\PaypalBundle\JMSPaymentPaypalBundle(),
             new JMS\Payment\CoreBundle\JMSPaymentCoreBundle(),
             new Ivory\GoogleMapBundle\IvoryGoogleMapBundle(),
+            new BCC\ExtraToolsBundle\BCCExtraToolsBundle(),
             //new FOS\TwitterBundle\FOSTwitterBundle(),
             //new FOS\RestBundle\FOSRestBundle(),
             //new JMS\SerializerBundle\JMSSerializerBundle($this),
