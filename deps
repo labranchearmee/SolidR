@@ -20,6 +20,10 @@
     target=bundles/JMS/Payment/PaypalBundle/
     version=origin/2.0
 
+[labranchearmee-humanroads]
+    git=git@github.com:kohr/HumanRoadsBundle.git
+    target=bundles/Brickstorm/HumanRoadsBundle/
+
 [labranchearmee-sms4foodbundle]
     git=git@github.com:kohr/Sms4FoodBundle.git
     target=bundles/Brickstorm/Sms4FoodBundle/

@@ -88,6 +88,7 @@ class AppKernel extends Kernel
             new Brickstorm\Sms4FoodBundle\BrickstormSms4FoodBundle(),
             new Brickstorm\FormBundle\BrickstormFormBundle(),
             new Brickstorm\WorldBundle\BrickstormWorldBundle(),
+            new Brickstorm\HumanRoadsBundle\BrickstormHumanRoadsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

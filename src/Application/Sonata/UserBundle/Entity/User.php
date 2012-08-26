@@ -73,7 +73,7 @@ class User extends BaseUser
     private $orders;
 
     /**
-     * @var Brickstorm\Sms4FoodBundle\Entity\Location
+     * @var Brickstorm\WorldBundle\Entity\Location
      */
     private $locations;
 
@@ -234,9 +234,9 @@ class User extends BaseUser
     /**
      * Add locations
      *
-     * @param Brickstorm\Sms4FoodBundle\Entity\Location $locations
+     * @param Brickstorm\WorldBundle\Entity\Location $locations
      */
-    public function addLocation(\Brickstorm\Sms4FoodBundle\Entity\Location $locations)
+    public function addLocation(\Brickstorm\WorldBundle\Entity\Location $locations)
     {
         $this->locations[] = $locations;
     }
@@ -259,5 +259,30 @@ class User extends BaseUser
     public function getGroups()
     {
         return $this->groups;
+    }
+    /**
+     * @var Brickstorm\SolidRBundle\Entity\Project
+     */
+    private $projects;
+
+
+    /**
+     * Add projects
+     *
+     * @param Brickstorm\SolidRBundle\Entity\Project $projects
+     */
+    public function addProject(\Brickstorm\SolidRBundle\Entity\Project $projects)
+    {
+        $this->projects[] = $projects;
+    }
+
+    /**
+     * Get projects
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getProjects()
+    {
+        return $this->projects;
     }
 }
