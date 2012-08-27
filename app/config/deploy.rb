@@ -1,5 +1,5 @@
 set :application, "SolidR"
-set :domain,      "solidr.amndrc.org"
+set :domain,      "ssh.cluster003.ovh.net"
 set :deploy_to,   "/homez.307/amndrc/www/__brickstorm/SolidR"
 set :app_path,    "app"
 
@@ -10,13 +10,14 @@ set :scm_passphrase, "brickstorm012"
 set :deploy_via,    :copy
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
 
+set :use_sudo, false
 set :user, "amndrc"
 set :password, '052009'
 
 set :shared_children, [app_path + "/logs", web_path + "/uploads", app_path + "/cache", "vendor"]
 
-set :update_vendors, true
-set :vendors_mode, "install"
+set :update_vendors, false
+#set :vendors_mode, "install"
 
 #set :dump_assetic_assets, true
 
