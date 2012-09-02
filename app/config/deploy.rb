@@ -10,6 +10,8 @@ set :scm_passphrase, "brickstorm012"
 set :deploy_via,    :copy
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
 
+set :php_bin, "php.ORIG.5.3.10"
+
 set :use_sudo, false
 set :user, "amndrc"
 set :password, '052009'
