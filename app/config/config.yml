@@ -18,6 +18,8 @@ imports:
     # Brickstorm
     - { resource: @BrickstormSolidRBundle/Resources/config/config.yml }
     - { resource: @BrickstormWorldBundle/Resources/config/config.yml }
+    - { resource: @BrickstormHumanRoadsBundle/Resources/config/config.yml }
+    - { resource: @ApplicationSonataUserBundle/Resources/config/admin_orm.xml }
     - { resource: fos_socialnetworks.yml }
 
     - { resource: @IvoryGoogleMapBundle/Resources/config/services.xml }

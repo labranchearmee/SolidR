@@ -82,6 +82,16 @@ class User extends BaseUser
      */
     protected $groups;
 
+    /**
+     * @var Brickstorm\SolidRBundle\Entity\Project
+     */
+    private $projects;
+
+    /**
+     * @var Brickstorm\HumanRoadsBundle\Entity\UserStep
+     */
+    private $usersteps;
+
     public function __construct()
     {
       $this->restaurants = new \Doctrine\Common\Collections\ArrayCollection();
@@ -89,6 +99,8 @@ class User extends BaseUser
       $this->orders = new \Doctrine\Common\Collections\ArrayCollection();
       $this->locations = new \Doctrine\Common\Collections\ArrayCollection();
       $this->groups = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->projects = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->usersteps = new \Doctrine\Common\Collections\ArrayCollection();
     }
     
     /**
@@ -232,6 +244,26 @@ class User extends BaseUser
     }
 
     /**
+     * Add projects
+     *
+     * @param Brickstorm\SolidRBundle\Entity\Project $projects
+     */
+    public function addProject(\Brickstorm\SolidRBundle\Entity\Project $projects)
+    {
+        $this->projects[] = $projects;
+    }
+
+    /**
+     * Get projects
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getProjects()
+    {
+        return $this->projects;
+    }
+
+    /**
      * Add locations
      *
      * @param Brickstorm\WorldBundle\Entity\Location $locations
@@ -252,6 +284,26 @@ class User extends BaseUser
     }
 
     /**
+     * Add usersteps
+     *
+     * @param Brickstorm\HumanRoadsBundle\Entity\UserStep $usersteps
+     */
+    public function addUserStep(\Brickstorm\HumanRoadsBundle\Entity\UserStep $usersteps)
+    {
+        $this->usersteps[] = $usersteps;
+    }
+
+    /**
+     * Get usersteps
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getUsersteps()
+    {
+        return $this->usersteps;
+    }
+
+    /**
      * Get groups
      *
      * @return Doctrine\Common\Collections\Collection 
@@ -259,30 +311,5 @@ class User extends BaseUser
     public function getGroups()
     {
         return $this->groups;
-    }
-    /**
-     * @var Brickstorm\SolidRBundle\Entity\Project
-     */
-    private $projects;
-
-
-    /**
-     * Add projects
-     *
-     * @param Brickstorm\SolidRBundle\Entity\Project $projects
-     */
-    public function addProject(\Brickstorm\SolidRBundle\Entity\Project $projects)
-    {
-        $this->projects[] = $projects;
-    }
-
-    /**
-     * Get projects
-     *
-     * @return Doctrine\Common\Collections\Collection 
-     */
-    public function getProjects()
-    {
-        return $this->projects;
     }
 }

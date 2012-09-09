@@ -20,7 +20,9 @@
 
         <one-to-many target-entity="Brickstorm\WorldBundle\Entity\Location" field="locations" mapped-by="user" />
 
-        <one-to-many target-entity="Brickstorm\SolidRBundle\Entity\Project" field="projects" mapped-by="participants" />
+        <one-to-many target-entity="Brickstorm\HumanRoadsBundle\Entity\UserStep" field="usersteps" mapped-by="user" />
+
+        <many-to-many target-entity="Brickstorm\SolidRBundle\Entity\Project" field="projects" mapped-by="participants" />
 
     </entity>
 
