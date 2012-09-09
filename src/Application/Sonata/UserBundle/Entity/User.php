@@ -92,6 +92,12 @@ class User extends BaseUser
      */
     private $usersteps;
 
+    /**
+     * @var Brickstorm\SolidRBundle\Entity\Organization
+     */
+    private $organizations;
+
+
     public function __construct()
     {
       $this->restaurants = new \Doctrine\Common\Collections\ArrayCollection();
@@ -101,6 +107,7 @@ class User extends BaseUser
       $this->groups = new \Doctrine\Common\Collections\ArrayCollection();
       $this->projects = new \Doctrine\Common\Collections\ArrayCollection();
       $this->usersteps = new \Doctrine\Common\Collections\ArrayCollection();
+      $this->organizations = new \Doctrine\Common\Collections\ArrayCollection();
     }
     
     /**
@@ -311,5 +318,25 @@ class User extends BaseUser
     public function getGroups()
     {
         return $this->groups;
+    }
+
+    /**
+     * Add organizations
+     *
+     * @param Brickstorm\SolidRBundle\Entity\Organization $organizations
+     */
+    public function addOrganization(\Brickstorm\SolidRBundle\Entity\Organization $organizations)
+    {
+        $this->organizations[] = $organizations;
+    }
+
+    /**
+     * Get organizations
+     *
+     * @return Doctrine\Common\Collections\Collection 
+     */
+    public function getOrganizations()
+    {
+        return $this->organizations;
     }
 }
